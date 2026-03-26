@@ -7,11 +7,11 @@
 //
 // Time Complexity: O(N)
 // Space Complexity: O(1)
-/* struct Node {
+ struct Node {
     int data;
     Node* next;
     Node(int x) : data(x), next(nullptr) {}
-}; */
+};
 
 void removeLoop(Node* head) {
     if(!head || !head->next){

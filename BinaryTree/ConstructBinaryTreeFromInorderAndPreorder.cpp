@@ -1,4 +1,11 @@
-/*
+// Problem: Construct Binary Tree from Inorder and Preorder Traversal
+// Approach: Recursion
+// Description:
+// Build binary tree using:
+// 1. Preorder Traversal -> Root Left Right
+// 2. Inorder Traversal  -> Left Root Right
+// Time Complexity: O(N)
+// Space Complexity: O(N)
 struct Node
 {
   int data;
@@ -9,7 +16,6 @@ struct Node
       left = right = NULL;
   }
 };
-*/
 
 class Solution {
 public:

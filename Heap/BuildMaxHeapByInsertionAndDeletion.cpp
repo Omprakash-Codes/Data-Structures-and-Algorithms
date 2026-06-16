@@ -1,4 +1,6 @@
 // Problem: Build Max Heap by Inserting Elements One by One
+//Deleting the root element and maintaining the heap property
+// Approach: Top-down Heapify (Step-down)
 // Approach: Bottom-Up Heapify (Step-Up)
 // Description:
 // Insert elements one by one into a Max Heap.
